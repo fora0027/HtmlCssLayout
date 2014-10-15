@@ -19,6 +19,13 @@ header, footer{
     background: red;
     text-align: center;
     }
+h2{
+    background: black;
+    color: white;
+    margin: 0;
+    border: 1 px solid white;
+    text-align: center;
+}
 
 /*Grid Styles*/
 
@@ -27,7 +34,8 @@ header, footer{
     border: 2px solid black;
     border-radius: 30px;
     padding: 1rem;
-    box-shadow: 3px 0px 10px #888888;
+    box-shadow: 0px 6px 0px #888888;
+    background: white;
 }
 
 @media screen and (min-width: 600px){
@@ -43,6 +51,7 @@ header, footer{
 .col-container{
     border: 3px solid black;
     width: 100%;
+    background: black;
 }
 @media screen and (min-width: 600px){
 .col-3{
@@ -64,3 +73,5 @@ header, footer{
     margin-left: 0;
 }
 }
+
+/*   https://github.com/brandonbrule/mad9013  */
